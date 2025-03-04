@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46DBA00F750808F35E51CAAE /* Pods__2365_kingfisher_undefined_symbols_reproduction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A314EAF7907EA2D2FF534 /* Pods__2365_kingfisher_undefined_symbols_reproduction.framework */; };
+		8D07FC5DCDF2B2CC6C273A0B /* Pods__2365_kingfisher_undefined_symbols_reproductionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343A69ABA7DEBA1B0F1F3FE1 /* Pods__2365_kingfisher_undefined_symbols_reproductionTests.framework */; };
+		BAAF0BC307C33D0935E9116B /* Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E15BB9F8255CCA3D4CD1B9E /* Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BDC9932D76C1050057133D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDC9742D76C1030057133D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BDC97B2D76C1030057133D;
+			remoteInfo = "#2365_kingfisher_undefined_symbols_reproduction";
+		};
+		18BDC99D2D76C1050057133D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDC9742D76C1030057133D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BDC97B2D76C1030057133D;
+			remoteInfo = "#2365_kingfisher_undefined_symbols_reproduction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BDC97C2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#2365_kingfisher_undefined_symbols_reproduction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDC9922D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#2365_kingfisher_undefined_symbols_reproductionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDC99C2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#2365_kingfisher_undefined_symbols_reproductionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		343A69ABA7DEBA1B0F1F3FE1 /* Pods__2365_kingfisher_undefined_symbols_reproductionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__2365_kingfisher_undefined_symbols_reproductionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489A314EAF7907EA2D2FF534 /* Pods__2365_kingfisher_undefined_symbols_reproduction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__2365_kingfisher_undefined_symbols_reproduction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E15BB9F8255CCA3D4CD1B9E /* Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8053321A53B652ECBC19606E /* Pods-#2365_kingfisher_undefined_symbols_reproduction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-#2365_kingfisher_undefined_symbols_reproduction.debug.xcconfig"; path = "Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction/Pods-#2365_kingfisher_undefined_symbols_reproduction.debug.xcconfig"; sourceTree = "<group>"; };
+		BDAA0F2AE237140A13EB392A /* Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.release.xcconfig"; path = "Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D77D20DD63A0B72D093641A9 /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-#2365_kingfisher_undefined_symbols_reproductionTests.release.xcconfig"; path = "Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproductionTests/Pods-#2365_kingfisher_undefined_symbols_reproductionTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC4242834FDE2E2A127E84C0 /* Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.debug.xcconfig"; path = "Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E41F7BFE611FD191A1D9E45A /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-#2365_kingfisher_undefined_symbols_reproductionTests.debug.xcconfig"; path = "Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproductionTests/Pods-#2365_kingfisher_undefined_symbols_reproductionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECCC3417CAFEB0F3B76279DE /* Pods-#2365_kingfisher_undefined_symbols_reproduction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-#2365_kingfisher_undefined_symbols_reproduction.release.xcconfig"; path = "Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction/Pods-#2365_kingfisher_undefined_symbols_reproduction.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18BDC9A42D76C1050057133D /* Exceptions for "#2365_kingfisher_undefined_symbols_reproduction" folder in "#2365_kingfisher_undefined_symbols_reproduction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18BDC97B2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		18BDC97E2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18BDC9A42D76C1050057133D /* Exceptions for "#2365_kingfisher_undefined_symbols_reproduction" folder in "#2365_kingfisher_undefined_symbols_reproduction" target */,
+			);
+			path = "#2365_kingfisher_undefined_symbols_reproduction";
+			sourceTree = "<group>";
+		};
+		18BDC9952D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = "#2365_kingfisher_undefined_symbols_reproductionTests";
+			sourceTree = "<group>";
+		};
+		18BDC99F2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = "#2365_kingfisher_undefined_symbols_reproductionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BDC9792D76C1030057133D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DBA00F750808F35E51CAAE /* Pods__2365_kingfisher_undefined_symbols_reproduction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDC98F2D76C1050057133D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07FC5DCDF2B2CC6C273A0B /* Pods__2365_kingfisher_undefined_symbols_reproductionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDC9992D76C1050057133D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAF0BC307C33D0935E9116B /* Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCCD5C9639C61153287CA22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8053321A53B652ECBC19606E /* Pods-#2365_kingfisher_undefined_symbols_reproduction.debug.xcconfig */,
+				ECCC3417CAFEB0F3B76279DE /* Pods-#2365_kingfisher_undefined_symbols_reproduction.release.xcconfig */,
+				DC4242834FDE2E2A127E84C0 /* Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.debug.xcconfig */,
+				BDAA0F2AE237140A13EB392A /* Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.release.xcconfig */,
+				E41F7BFE611FD191A1D9E45A /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.debug.xcconfig */,
+				D77D20DD63A0B72D093641A9 /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18BDC9732D76C1030057133D = {
+			isa = PBXGroup;
+			children = (
+				18BDC97E2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */,
+				18BDC9952D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests */,
+				18BDC99F2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests */,
+				18BDC97D2D76C1030057133D /* Products */,
+				0FCCD5C9639C61153287CA22 /* Pods */,
+				4ACC89D487028D11C7C500F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BDC97D2D76C1030057133D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BDC97C2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction.app */,
+				18BDC9922D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests.xctest */,
+				18BDC99C2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ACC89D487028D11C7C500F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489A314EAF7907EA2D2FF534 /* Pods__2365_kingfisher_undefined_symbols_reproduction.framework */,
+				4E15BB9F8255CCA3D4CD1B9E /* Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests.framework */,
+				343A69ABA7DEBA1B0F1F3FE1 /* Pods__2365_kingfisher_undefined_symbols_reproductionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BDC97B2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDC9A52D76C1050057133D /* Build configuration list for PBXNativeTarget "#2365_kingfisher_undefined_symbols_reproduction" */;
+			buildPhases = (
+				77856E64F4244D9FF80AC25A /* [CP] Check Pods Manifest.lock */,
+				18BDC9782D76C1030057133D /* Sources */,
+				18BDC9792D76C1030057133D /* Frameworks */,
+				18BDC97A2D76C1030057133D /* Resources */,
+				3CE81E76C98E7645369B3B14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				18BDC97E2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */,
+			);
+			name = "#2365_kingfisher_undefined_symbols_reproduction";
+			productName = "#2365_kingfisher_undefined_symbols_reproduction";
+			productReference = 18BDC97C2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BDC9912D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDC9AA2D76C1050057133D /* Build configuration list for PBXNativeTarget "#2365_kingfisher_undefined_symbols_reproductionTests" */;
+			buildPhases = (
+				D65C052EF38FD610DC0E9160 /* [CP] Check Pods Manifest.lock */,
+				18BDC98E2D76C1050057133D /* Sources */,
+				18BDC98F2D76C1050057133D /* Frameworks */,
+				18BDC9902D76C1050057133D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BDC9942D76C1050057133D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18BDC9952D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests */,
+			);
+			name = "#2365_kingfisher_undefined_symbols_reproductionTests";
+			productName = "#2365_kingfisher_undefined_symbols_reproductionTests";
+			productReference = 18BDC9922D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BDC99B2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDC9AD2D76C1050057133D /* Build configuration list for PBXNativeTarget "#2365_kingfisher_undefined_symbols_reproductionUITests" */;
+			buildPhases = (
+				77574D175F52AF52036824A6 /* [CP] Check Pods Manifest.lock */,
+				18BDC9982D76C1050057133D /* Sources */,
+				18BDC9992D76C1050057133D /* Frameworks */,
+				18BDC99A2D76C1050057133D /* Resources */,
+				B8FC7AA5BDE7E604A667E2C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BDC99E2D76C1050057133D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18BDC99F2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests */,
+			);
+			name = "#2365_kingfisher_undefined_symbols_reproductionUITests";
+			productName = "#2365_kingfisher_undefined_symbols_reproductionUITests";
+			productReference = 18BDC99C2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BDC9742D76C1030057133D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					18BDC97B2D76C1030057133D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					18BDC9912D76C1050057133D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 18BDC97B2D76C1030057133D;
+					};
+					18BDC99B2D76C1050057133D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 18BDC97B2D76C1030057133D;
+					};
+				};
+			};
+			buildConfigurationList = 18BDC9772D76C1030057133D /* Build configuration list for PBXProject "#2365_kingfisher_undefined_symbols_reproduction" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BDC9732D76C1030057133D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 18BDC97D2D76C1030057133D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BDC97B2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */,
+				18BDC9912D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests */,
+				18BDC99B2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BDC97A2D76C1030057133D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDC9902D76C1050057133D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDC99A2D76C1050057133D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE81E76C98E7645369B3B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction/Pods-#2365_kingfisher_undefined_symbols_reproduction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction/Pods-#2365_kingfisher_undefined_symbols_reproduction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction/Pods-#2365_kingfisher_undefined_symbols_reproduction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77574D175F52AF52036824A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77856E64F4244D9FF80AC25A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-#2365_kingfisher_undefined_symbols_reproduction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FC7AA5BDE7E604A667E2C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D65C052EF38FD610DC0E9160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-#2365_kingfisher_undefined_symbols_reproductionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BDC9782D76C1030057133D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDC98E2D76C1050057133D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDC9982D76C1050057133D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BDC9942D76C1050057133D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BDC97B2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */;
+			targetProxy = 18BDC9932D76C1050057133D /* PBXContainerItemProxy */;
+		};
+		18BDC99E2D76C1050057133D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BDC97B2D76C1030057133D /* #2365_kingfisher_undefined_symbols_reproduction */;
+			targetProxy = 18BDC99D2D76C1050057133D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18BDC9A62D76C1050057133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8053321A53B652ECBC19606E /* Pods-#2365_kingfisher_undefined_symbols_reproduction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7RXT83R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "#2365_kingfisher_undefined_symbols_reproduction/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-kuzomenskyi.-2365-kingfisher-undefined-symbols-reproduction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BDC9A72D76C1050057133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCC3417CAFEB0F3B76279DE /* Pods-#2365_kingfisher_undefined_symbols_reproduction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7RXT83R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "#2365_kingfisher_undefined_symbols_reproduction/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-kuzomenskyi.-2365-kingfisher-undefined-symbols-reproduction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BDC9A82D76C1050057133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BDC9A92D76C1050057133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BDC9AB2D76C1050057133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41F7BFE611FD191A1D9E45A /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7RXT83R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-kuzomenskyi.-2365-kingfisher-undefined-symbols-reproductionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/#2365_kingfisher_undefined_symbols_reproduction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/#2365_kingfisher_undefined_symbols_reproduction";
+			};
+			name = Debug;
+		};
+		18BDC9AC2D76C1050057133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77D20DD63A0B72D093641A9 /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7RXT83R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-kuzomenskyi.-2365-kingfisher-undefined-symbols-reproductionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/#2365_kingfisher_undefined_symbols_reproduction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/#2365_kingfisher_undefined_symbols_reproduction";
+			};
+			name = Release;
+		};
+		18BDC9AE2D76C1050057133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4242834FDE2E2A127E84C0 /* Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7RXT83R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-kuzomenskyi.-2365-kingfisher-undefined-symbols-reproductionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "#2365_kingfisher_undefined_symbols_reproduction";
+			};
+			name = Debug;
+		};
+		18BDC9AF2D76C1050057133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAA0F2AE237140A13EB392A /* Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7RXT83R75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-kuzomenskyi.-2365-kingfisher-undefined-symbols-reproductionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "#2365_kingfisher_undefined_symbols_reproduction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BDC9772D76C1030057133D /* Build configuration list for PBXProject "#2365_kingfisher_undefined_symbols_reproduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDC9A82D76C1050057133D /* Debug */,
+				18BDC9A92D76C1050057133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDC9A52D76C1050057133D /* Build configuration list for PBXNativeTarget "#2365_kingfisher_undefined_symbols_reproduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDC9A62D76C1050057133D /* Debug */,
+				18BDC9A72D76C1050057133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDC9AA2D76C1050057133D /* Build configuration list for PBXNativeTarget "#2365_kingfisher_undefined_symbols_reproductionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDC9AB2D76C1050057133D /* Debug */,
+				18BDC9AC2D76C1050057133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDC9AD2D76C1050057133D /* Build configuration list for PBXNativeTarget "#2365_kingfisher_undefined_symbols_reproductionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDC9AE2D76C1050057133D /* Debug */,
+				18BDC9AF2D76C1050057133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BDC9742D76C1030057133D /* Project object */;
+}

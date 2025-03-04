@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests : NSObject
+@end
+@implementation PodsDummy_Pods__2365_kingfisher_undefined_symbols_reproduction__2365_kingfisher_undefined_symbols_reproductionUITests
+@end

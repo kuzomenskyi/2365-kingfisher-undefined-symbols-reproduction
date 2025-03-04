@@ -1,0 +1,6 @@
+framework module Pods__2365_kingfisher_undefined_symbols_reproduction {
+  umbrella header "Pods-#2365_kingfisher_undefined_symbols_reproduction-umbrella.h"
+
+  export *
+  module * { export * }
+}
