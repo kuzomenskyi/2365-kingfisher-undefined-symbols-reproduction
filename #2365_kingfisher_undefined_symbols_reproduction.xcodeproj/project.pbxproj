@@ -65,15 +65,11 @@
 		};
 		18BDC9952D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "#2365_kingfisher_undefined_symbols_reproductionTests";
 			sourceTree = "<group>";
 		};
 		18BDC99F2D76C1050057133D /* #2365_kingfisher_undefined_symbols_reproductionUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "#2365_kingfisher_undefined_symbols_reproductionUITests";
 			sourceTree = "<group>";
 		};
@@ -117,7 +113,6 @@
 				E41F7BFE611FD191A1D9E45A /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.debug.xcconfig */,
 				D77D20DD63A0B72D093641A9 /* Pods-#2365_kingfisher_undefined_symbols_reproductionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,7 +159,7 @@
 				18BDC9782D76C1030057133D /* Sources */,
 				18BDC9792D76C1030057133D /* Frameworks */,
 				18BDC97A2D76C1030057133D /* Resources */,
-				3CE81E76C98E7645369B3B14 /* [CP] Embed Pods Frameworks */,
+				1C93AD6B710F7F94DA5A5FE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +203,7 @@
 				18BDC9982D76C1050057133D /* Sources */,
 				18BDC9992D76C1050057133D /* Frameworks */,
 				18BDC99A2D76C1050057133D /* Resources */,
-				B8FC7AA5BDE7E604A667E2C5 /* [CP] Embed Pods Frameworks */,
+				D82A0F04CC629E1D54BA639A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,7 +287,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3CE81E76C98E7645369B3B14 /* [CP] Embed Pods Frameworks */ = {
+		1C93AD6B710F7F94DA5A5FE0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,23 +348,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8FC7AA5BDE7E604A667E2C5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D65C052EF38FD610DC0E9160 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +368,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D82A0F04CC629E1D54BA639A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests/Pods-#2365_kingfisher_undefined_symbols_reproduction-#2365_kingfisher_undefined_symbols_reproductionUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -527,7 +522,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -590,7 +585,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
